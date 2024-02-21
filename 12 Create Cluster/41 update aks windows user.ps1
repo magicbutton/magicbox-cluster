@@ -1,0 +1,2 @@
+#$ENV:WINDOWS_USERNAME
+az aks update -g $ENV:AZ_RESGROUP -n $ENV:AKS_CLUSTERNAME  --windows-admin-password $ENV:WINDOWS_PASSWORD 
